@@ -1,4 +1,4 @@
-﻿<# 
+<# 
 SYNOPSIS        = Find Win32 Application Dependency and create csv report Using PowerShell>
 DESCRIPTION     = Find Win32 Application Dependency and create csv report Using PowerShell>
 Demo Video link =  https://www.youtube.com/@ChanderManiPandey
@@ -10,6 +10,7 @@ Creation Date:  = 21 Jan 2024
 Find Author on 
 Youtube:-        https://www.youtube.com/@chandermanipandey8763
 Twitter:-        https://twitter.com/Mani_CMPandey
+Facebook:-       https://www.facebook.com/profile.php?id=100087275409143&mibextid=ZbWKwL
 LinkedIn:-       https://www.linkedin.com/in/chandermanipandey
 #>
 
