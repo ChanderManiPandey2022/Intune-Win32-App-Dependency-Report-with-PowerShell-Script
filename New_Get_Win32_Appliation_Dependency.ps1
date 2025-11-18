@@ -1,4 +1,3 @@
-﻿
 <#
 .SYNOPSIS
     Find Win32 Application Dependencies in Intune and generate a CSV report using PowerShell.
@@ -218,4 +217,5 @@ Invoke-Item -Path $Pathfinalreport
 Write-Host ""
 DisConnect-MgGraph
 Write-Host "====================== COMPLETED ======================" -ForegroundColor Magenta
+
 
