@@ -77,7 +77,7 @@ Ensure-Module -moduleToCheck "Microsoft.Graph.Authentication"
 ###############################################
 Write-Host ""
 Write-Host "Connecting to Microsoft Graph..." -ForegroundColor Cyan
-Connect-MgGraph -Scopes "DeviceManagementApps.ReadWrite.All" -NoWelcome -ErrorAction Stop
+Connect-MgGraph -Scope "DeviceManagementApps.Read.All" -NoWelcome -ErrorAction Stop
 
 
 
@@ -216,4 +216,6 @@ Write-Host "Report created successfully!" -ForegroundColor Green
 Invoke-Item -Path $Pathfinalreport
 
 Write-Host ""
+DisConnect-MgGraph
 Write-Host "====================== COMPLETED ======================" -ForegroundColor Magenta
+
